@@ -11,4 +11,4 @@ if (anni < 18){
     costo= costo*0.6;
 }
 
-document.getElementById('output').innerHTML= costo;
+document.getElementById('output').innerHTML= costo + '&euro;';
