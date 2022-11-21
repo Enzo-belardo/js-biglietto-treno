@@ -8,7 +8,15 @@ document.getElementById('output').innerHTML= costo;
 
 if (anni < 18){
     costo= costo*0.8;
+}else{
+    costo= costo;
 }
+document.getElementById('output-min').innerHTML= costo;
+
 if (anni > 60){
     costo= costo*0.6;
+}else{
+    costo= costo;
 }
+
+document.getElementById('output-max').innerHTML= costo;
